@@ -1,11 +1,10 @@
 import { DestinationsRepository } from "../repositories/destinations.repository.js";
 import { LocationsRepository } from "../repositories/locations.repository.js";
-import { DESTINY_CEP } from "../repositories/routes.repository.js";
 import { RIDE_TYPE, User } from "../repositories/users.repository.js";
 import googleMapsClient, { Duration, LatLngLiteral } from '@google/maps';
 import { MessageService } from "./message.service.js";
 import { UserService } from "./user.service.js";
-import { MAPS_KEY } from "../../globals.js";
+import { DESTINY_CEP, MAPS_KEY } from "../../globals.js";
 
 export class RouteService {
   private mapsClient: googleMapsClient.GoogleMapsClientWithPromise;

@@ -1,1 +1,2 @@
 export const MAPS_KEY = '';
+export const DESTINY_CEP = '30710500';

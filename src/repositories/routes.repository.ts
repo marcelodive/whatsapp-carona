@@ -1,7 +1,5 @@
 import { BaseRepository } from "./base.repository.js";
 
-export const DESTINY_CEP = '30710500';
-
 export type Route = {
   id: string,
   driverCEP: string,

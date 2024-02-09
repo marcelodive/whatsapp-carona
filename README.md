@@ -13,9 +13,10 @@ Bot to organize carpooling.
 
 ## TODO
 
-- Generalize the application, removing references like JVV, etc.
+- Generalize the application, removing references like JVV, GC, etc.
 - Allow data updates.
 - Provide an option to accept only users from group X or Y.
+- Offer calculation based on gasoline and distance.
 
 ---
 
@@ -32,6 +33,7 @@ Bot para organizar caronas.
 
 ## A Fazer
 
-- Generalizar a aplicação, removendo referências como JVV, etc.
+- Generalizar a aplicação, removendo referências como JVV, GC, etc.
 - Permitir atualizações de dados.
 - Oferecer opção para aceitar apenas usuários dos grupos X ou Y.
+- Calculo de oferta baseado na gasolina e na distância.
